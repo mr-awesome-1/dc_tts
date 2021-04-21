@@ -34,7 +34,7 @@ class Hyperparams:
     # data
     data = "/content/LJAudio"
     # data = "/data/private/voice/kate"
-    test_data = 'harvard_sentences.txt'
+    test_data = 'samples.txt'
     vocab = "PE abcdefghijklmnopqrstuvwxyz'.?" # P: Padding, E: EOS.
     max_N = 180 # Maximum number of characters.
     max_T = 210 # Maximum number of mel frames.
